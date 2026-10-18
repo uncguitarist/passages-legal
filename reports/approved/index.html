@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Curio: Log approved</title>
+<style>
+  :root {
+    --ink: #23201c; --ink-soft: #5d574e; --ground: #fbfaf7; --panel: #ffffff;
+    --rule: #e4ded3; --accent: #2f6f5e; --on-accent: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #ece7df; --ink-soft: #a8a096; --ground: #16140f; --panel: #1f1c17;
+      --rule: #322d26; --accent: #6fb8a2; --on-accent: #16140f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 30rem; margin: 0 auto; padding: 3rem 1rem; }
+  .brand { color: var(--accent); font-weight: 700; letter-spacing: .02em; margin: 0 0 1rem; }
+  .card { background: var(--panel); border: 1px solid var(--rule); border-radius: 16px;
+           padding: 1.75rem 1.5rem .75rem; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 .75rem; text-wrap: balance; }
+  p { margin: 0 0 1rem; }
+  .soft { color: var(--ink-soft); }
+  button { font: inherit; font-weight: 600; color: var(--on-accent); background: var(--accent);
+            border: 0; border-radius: 12px; padding: .9rem 1.25rem; width: 100%; margin: .25rem 0 1rem;
+            cursor: pointer; }
+  footer { color: var(--ink-soft); font-size: .9rem; margin-top: 1.5rem; text-align: center; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <p class="brand">Curio</p>
+  <div class="card">
+    <h1>Log approved</h1>
+    <p>We've emailed you the signed reading log. Forward it to the teacher, or print it.</p>
+  </div>
+  <footer>Questions? <a href="mailto:curio.reading@gmail.com">curio.reading@gmail.com</a></footer>
+</main>
+</body>
+</html>
